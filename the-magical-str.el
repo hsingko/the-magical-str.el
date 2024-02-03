@@ -35,5 +35,5 @@
 
 
 
-(provide 'magical-str)
+(provide 'the-magical-str)
 ;;; magical-str.el ends here
