@@ -36,7 +36,7 @@
 
 ## 用途
 
-可以配合 consult 搜索带有中文的文件，比如下面实现了用拼音首字母搜索 denote 笔记的功能：
+可以配合 consult 搜索路径中带有中文的文件，比如下面实现了用拼音首字母搜索 denote 笔记的功能：
 
 ```lisp
 (defun consult-denote-pinyin ()
@@ -47,3 +47,8 @@
 				    (denote-directory-files))
 			    :lookup #'consult--lookup-cdr)))
 ```
+
+
+## 性能
+
+目前测试过包含 15000 个文件的文件夹，相应时间大约在 3 秒左右。
