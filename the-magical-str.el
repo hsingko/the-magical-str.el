@@ -1,4 +1,4 @@
-;;; magical-str.el --- simple magic                  -*- lexical-binding: t; -*-
+;;; the-magical-str.el --- the magic                 -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2024  rookie
 
@@ -34,6 +34,5 @@
 		       (split-string str ""))))
 
 
-
 (provide 'the-magical-str)
-;;; magical-str.el ends here
+;;; the-magical-str.el ends here
