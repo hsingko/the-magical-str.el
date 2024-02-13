@@ -33,6 +33,9 @@
 			       val s)))
 		       (split-string str ""))))
 
+(defun get-magical-str-no-properties (str)
+  (substring-no-properties (get-magical-str str)))
+
 
 (provide 'the-magical-str)
 ;;; the-magical-str.el ends here
